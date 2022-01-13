@@ -1,0 +1,38 @@
+body 
+{
+    line-height: 1;
+    margin: 0;
+    
+}
+.container 
+{
+    width: 100%;
+    background-color:lightgray;
+    height:100%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+  thead {
+    background-color: #1c87c9;
+    color: #ffffff;
+  }
+  th {
+    text-align: center;
+    height: 50px;
+  }
+  tbody tr:nth-child(odd) {
+    background: #ffffff;
+  }
+  tbody tr:nth-child(even) {
+    background: #f4f4f4;
+  }
